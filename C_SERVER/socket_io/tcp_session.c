@@ -36,7 +36,7 @@ struct session* cache_alloc()
 	{
 		s = MY_malloc(sizeof(struct session));
 	}
-	memset(s,0,sizeof(struct session));
+	memset(s, 0, sizeof(struct session));
 	return s;
 };
 
@@ -56,7 +56,7 @@ void init_session_manager() {
 	memset(&session_manager, 0, sizeof(session_manager));
 	//创建对象池所需要的内存空间
 	session_manager.cache_mem = (struct session*)MY_malloc(MAX_SESSION_NUM*sizeof(struct session));
-	memset(session_manager.cache_mem,0,MAX_SESSION_NUM*sizeof(struct session));
+	memset(session_manager.cache_mem, 0, MAX_SESSION_NUM * sizeof(struct session));
 	for (int i = 0; i < MAX_SESSION_NUM; i++) {
 		session_manager.cache_mem[i].next = session_manager.free_list;
 		session_manager.free_list = &session_manager.cache_mem[i];

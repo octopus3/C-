@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{5094c1d0-14c6-4a0b-8395-8ec785f68772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd">
+      <UniqueIdentifier>{71e38571-e4c3-4570-82e1-d1da28668df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\crypt">
+      <UniqueIdentifier>{2853f24a-1f1d-42e5-9fd9-ee54c2e4c5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\http_parser">
+      <UniqueIdentifier>{2c45f61e-f27b-4e82-9889-ef645df91ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\3rd\mjson">
+      <UniqueIdentifier>{cdc85b83-050e-4e99-ac0e-f432d028cd62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gateway">
+      <UniqueIdentifier>{f8cd0770-d119-4234-b195-1f69508e1f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gateway\socket">
+      <UniqueIdentifier>{9166a363-3c33-4f75-be3e-43dd3cf4bee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{e945e04f-774e-4584-8419-d007f472738b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common_server">
+      <UniqueIdentifier>{ecbed1fe-820e-459a-b8dc-0ba350093134}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\3rd\crypt\base64_encoder.c">
+      <Filter>src\3rd\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\crypt\sha1.c">
+      <Filter>src\3rd\crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\http_parser\http_parser.c">
+      <Filter>src\3rd\http_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\mjson\json.c">
+      <Filter>src\3rd\mjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rd\mjson\json_extends.c">
+      <Filter>src\3rd\mjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gateway\gateway.c">
+      <Filter>src\gateway</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gateway\socket\server_socket_win.c">
+      <Filter>src\gateway\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gateway\socket\session.c">
+      <Filter>src\gateway\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\timer_list.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\log.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common_server\main.c">
+      <Filter>src\common_server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common_server\common_config.c">
+      <Filter>src\common_server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\3rd\crypt\base64_encoder.h">
+      <Filter>src\3rd\crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\crypt\sha1.h">
+      <Filter>src\3rd\crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\http_parser\http_parser.h">
+      <Filter>src\3rd\http_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\mjson\json.h">
+      <Filter>src\3rd\mjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rd\mjson\json_extends.h">
+      <Filter>src\3rd\mjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gateway\gateway.h">
+      <Filter>src\gateway</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gateway\socket\session.h">
+      <Filter>src\gateway\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\timer.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\timer_list.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\log.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common_server\common_config.h">
+      <Filter>src\common_server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
